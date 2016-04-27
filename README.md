@@ -1,7 +1,7 @@
 Firebird Client Library
 =======================
-Small pascal library using the firebird client API from the fbclient library.
-mFX come from Minimalist Firebird eXpress library.
+Small pascal library using the firebird client API from the fbclient library.<br>
+mFX come from Minimalist Firebird eXpress library.<br>
   
 
 History

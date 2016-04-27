@@ -1,0 +1,68 @@
+package mFXRS21;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE RELEASE}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'mFX.Classes Firebird Small Client © cdc@decumont.be'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  CodeSiteExpressPkg,
+  dsnap,
+  dbrtl;
+
+contains
+  mFX.Classes in '..\Sources\mFX.Classes.pas',
+  mFX.Blob in '..\Sources\mFX.Blob.pas',
+  mFX.Database in '..\Sources\mFX.Database.pas',
+  mFX.ErrorCodes in '..\Sources\mFX.ErrorCodes.pas',
+  mFX.Header in '..\Sources\mFX.Header.pas',
+  mFX.Intf in '..\Sources\mFX.Intf.pas',
+  mFX.SQL in '..\Sources\mFX.SQL.pas',
+  mFX.Services in '..\Sources\mFX.Services.pas',
+  mFX.ClientDataSet in '..\Sources\mFX.ClientDataSet.pas',
+  mFX.Consts in '..\Sources\mFX.Consts.pas',
+  mFX.DatabaseInfo in '..\Sources\mFX.DatabaseInfo.pas',
+  mFX.DDLTool in '..\Sources\mFX.DDLTool.pas',
+  mFX.Grant in '..\Sources\mFX.Grant.pas',
+  mFX.SystemTable in '..\Sources\mFX.SystemTable.pas',
+  mFX.SQLScript in '..\Sources\mFX.SQLScript.pas',
+  mFX.ClientStub in '..\Sources\mFX.ClientStub.pas',
+  mFX.InternalDataSet in '..\Sources\mFX.InternalDataSet.pas',
+  mFX.Alias in '..\Sources\mFX.Alias.pas',
+  mFX.Schema in '..\Sources\mFX.Schema.pas',
+  mFX.List in '..\Sources\mFX.List.pas',
+  mFX.MetaData in '..\Sources\mFX.MetaData.pas',
+  mFX.Base in '..\Sources\mFX.Base.pas',
+  mFX.Utils in '..\Sources\mFX.Utils.pas',
+  mFX.Logger in '..\Sources\mFX.Logger.pas',
+  mFX.SQLField in '..\Sources\mFX.SQLField.pas',
+  mFX.SQLParamsParser in '..\Sources\mFX.SQLParamsParser.pas',
+  mFX.SQLScriptParser in '..\Sources\mFX.SQLScriptParser.pas',
+  mFX.Parser in '..\Sources\mFX.Parser.pas',
+  mFX.ClientLib in '..\Sources\mFX.ClientLib.pas';
+
+end.

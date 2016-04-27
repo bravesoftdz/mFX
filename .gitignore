@@ -1,0 +1,9 @@
+### Example user template
+*.dcu
+*.~*
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen

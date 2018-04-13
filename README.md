@@ -12,6 +12,7 @@ History
 ~ ???? Add SQL parsing<br>
 ~ ???? Add SQLScript support<br>
 ~ ???? Add Schemas support<br>
+~ 2017 Start FB3 support
 
 Components
 ----------
